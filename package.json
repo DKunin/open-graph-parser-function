@@ -1,6 +1,6 @@
 {
   "name": "open-graph-parser-function",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": false,
   "main": "index.js",
   "repository": {
@@ -18,5 +18,9 @@
   },
   "homepage": "https://github.com/dkunin/open-graph-parser-function",
   "keywords": [],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "memory-cache": "0.2.0",
+    "url-metadata": "2.1.7"
+  }
 }
